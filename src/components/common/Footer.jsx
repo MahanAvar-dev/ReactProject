@@ -10,7 +10,6 @@ const Footer = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           
-          {/* ستون ۱: ارتباط با ما */}
           <div className="space-y-4">
             <h3 className="text-lg font-bold flex items-center gap-2">
               <span className="w-1 h-6 bg-[#00FF48] rounded-full"></span>
@@ -23,7 +22,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3 group hover:text-[#00FF48] transition-colors cursor-pointer">
                 <FaPhone className="text-[#00FF48] group-hover:text-green-300 transition-colors" />
-                <span>۰۱۱-۱۲۳۴۵۶۷۸</span>
+                <span>011-1234567</span>
               </div>
               <div className="flex items-center gap-3 group hover:text-[#00FF48] transition-colors cursor-pointer">
                 <FaEnvelope className="text-[#00FF48] group-hover:text-green-300 transition-colors" />
@@ -31,12 +30,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3 group hover:text-[#00FF48] transition-colors cursor-pointer">
                 <FaClock className="text-[#00FF48] group-hover:text-green-300 transition-colors" />
-                <span>شنبه تا پنجشنبه ۹ الی ۱۸</span>
+                <span>شنبه تا پنجشنبه 9 الی 20</span>
               </div>
             </div>
           </div>
 
-          {/* ستون ۲: شبکه‌های اجتماعی */}
           <div className="space-y-4">
             <h3 className="text-lg font-bold flex items-center gap-2">
               <span className="w-1 h-6 bg-[#00FF48] rounded-full"></span>
@@ -89,7 +87,7 @@ const Footer = () => {
               © {currentYear} تمامی حقوق برای <span className="text-[#00FF48] font-bold">آموزشگاه کارپل </span> محفوظ است.
             </p>
             <div className="flex items-center gap-4 text-xs text-gray-500">
-              <span>نسخه ۱.۰.۰</span>
+              <span>نسخه 1.0.0</span>
             </div>
           </div>
         </div>
