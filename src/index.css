@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    direction: rtl;
+  }
+  
+  body {
+    font-family: 'Vazir', system-ui, sans-serif;
+    background-color: #0f111d;
+    color: #ffffff;
+  }
+}
+
+@theme {
+  --color-dark-primary: #0f111d;
+  --color-dark-secondary: #080a16;
+}
+
+@layer utilities {
+  .animate-slideDown {
+    animation: slideDown 0.3s ease-out;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080a16;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #15ff00;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #22ff00;
+}
