@@ -39,9 +39,9 @@ const CoursesPreview = ({ courses, onAddToCart }) => {
                 <p className="text-xs text-gray-500 mt-1"> {course.instructor}</p>
                 
                 <div className="flex items-center justify-between text-xs text-gray-400 mt-3 pt-2 border-t border-[#00FF48]/10">
-                  <span className="flex items-center gap-1"><FiClock className="text-[#00FF48]" />۲۰h</span>
-                  <span className="flex items-center gap-1"><FiUsers className="text-[#00FF48]" />۱۵۶</span>
-                  <span className="flex items-center gap-1"><FiStar className="text-yellow-400" />۴.۹</span>
+                  <span className="flex items-center gap-1"><FiClock className="text-[#00FF48]" />20h</span>
+                  <span className="flex items-center gap-1"><FiUsers className="text-[#00FF48]" />156</span>
+                  <span className="flex items-center gap-1"><FiStar className="text-yellow-400" />4.9</span>
                 </div>
 
                 <div className="flex items-center justify-between mt-3 pt-2 border-t border-[#00FF48]/10">
