@@ -7,6 +7,5 @@
     plugins: [
       react(),
       tailwindcss(),
-    ],
-    base:process.env.VITEBASEPATH || '/ReactProject'
+    ]
   })
