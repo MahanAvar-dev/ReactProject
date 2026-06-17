@@ -4,9 +4,9 @@ import { FiAward, FiUsers, FiBookOpen, FiTrendingUp } from 'react-icons/fi';
 const AboutSection = () => {
   const stats = [
     { icon: FiBookOpen, value: '+10', label: 'دوره آموزشی' },
-    { icon: FiUsers, value: '+۲۰۰', label: 'دانشجو' },
-    { icon: FiAward, value: '۴.۹', label: 'میانگین امتیاز' },
-    { icon: FiTrendingUp, value: '۹۵٪', label: 'رضایت دانشجو' },
+    { icon: FiUsers, value: '+200', label: 'دانشجو' },
+    { icon: FiAward, value: '4.9', label: 'میانگین امتیاز' },
+    { icon: FiTrendingUp, value: '95٪', label: 'رضایت دانشجو' },
   ];
 
   return (
