@@ -8,7 +8,5 @@
       react(),
       tailwindcss(),
     ],
-    server: {
-      host: true
-    }
+    base:process.env.VITE_BASE-PATH || '/Reactproject-01'
   })
