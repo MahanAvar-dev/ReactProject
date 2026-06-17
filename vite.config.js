@@ -8,5 +8,5 @@
       react(),
       tailwindcss(),
     ],
-    base:process.env.VITE_BASE-PATH || '/Reactproject-01'
+    base:process.env.VITEBASEPATH || '/ReactProject'
   })
