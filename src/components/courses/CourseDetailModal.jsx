@@ -66,9 +66,6 @@ const CourseDetailModal = ({ course, isOpen, onClose, onAddToCart }) => {
               <button onClick={() => { onAddToCart(course); onClose(); }} className="flex hover:cursor-pointer items-center justify-center gap-2 flex-1 sm:flex-none px-6 py-3 bg-[#00FF48] text-[#0f111d] font-bold rounded-xl hover:shadow-lg hover:shadow-[#00FF48]/30 hover:scale-105 transition-all duration-300">
                 <FiShoppingCart className="w-5 h-5" />افزودن به سبد خرید
               </button>
-              <button onClick={() => { onAddToCart(course); onClose(); window.location.href = '/cart'; }} className=" hover:cursor-pointer flex-1 sm:flex-none px-6 py-3 border-2 border-[#00FF48] text-[#00FF48] font-bold rounded-xl hover:bg-[#00FF48] hover:text-[#0f111d] transition-all duration-300 hover:shadow-lg hover:shadow-[#00FF48]/20">
-                خرید مستقیم
-              </button>
             </div>
           </div>
         </div>
